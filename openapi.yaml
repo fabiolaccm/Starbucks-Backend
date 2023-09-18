@@ -1,0 +1,369 @@
+openapi: 3.0.1
+info:
+  title: Starbucks.Ecommerce.Services.Api
+  version: '1.0'
+paths:
+  /api/Auth:
+    post:
+      tags:
+        - Auth
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequestDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequestDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/LoginRequestDto'
+      responses:
+        '200':
+          description: Success
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/LoginResponseDto'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponseDto'
+            text/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponseDto'
+  /api/Ingredients:
+    get:
+      tags:
+        - Ingredients
+      responses:
+        '200':
+          description: Success
+  /api/Ingredients/{id}:
+    get:
+      tags:
+        - Ingredients
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+    put:
+      tags:
+        - Ingredients
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateIngredientDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/UpdateIngredientDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/UpdateIngredientDto'
+      responses:
+        '200':
+          description: Success
+  /api/Orders/{id}:
+    get:
+      tags:
+        - Orders
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+    delete:
+      tags:
+        - Orders
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+  /api/Orders:
+    get:
+      tags:
+        - Orders
+      responses:
+        '200':
+          description: Success
+    post:
+      tags:
+        - Orders
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequestDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequestDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequestDto'
+      responses:
+        '200':
+          description: Success
+  /api/Orders/{id}/execute:
+    put:
+      tags:
+        - Orders
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+  /api/Orders/{id}/invoice:
+    put:
+      tags:
+        - Orders
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+  /api/Products:
+    get:
+      tags:
+        - Products
+      responses:
+        '200':
+          description: Success
+  /api/Products/{productId}:
+    get:
+      tags:
+        - Products
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+  /api/Provinces:
+    get:
+      tags:
+        - Provinces
+      responses:
+        '200':
+          description: Success
+  /api/Roles:
+    get:
+      tags:
+        - Roles
+      responses:
+        '200':
+          description: Success
+  /api/Users/{userId}:
+    get:
+      tags:
+        - Users
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+  /api/Users:
+    get:
+      tags:
+        - Users
+      responses:
+        '200':
+          description: Success
+    post:
+      tags:
+        - Users
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+      responses:
+        '200':
+          description: Success
+  /api/Users/{id}:
+    put:
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserDto'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserDto'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserDto'
+      responses:
+        '200':
+          description: Success
+    delete:
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+components:
+  schemas:
+    CreateOrderRequestDto:
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+        paymentMethod:
+          type: string
+          nullable: true
+        orderNro:
+          type: integer
+          format: int32
+        orderDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderDetailRequest'
+          nullable: true
+      additionalProperties: false
+    CreateUserDto:
+      type: object
+      properties:
+        name:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        password:
+          type: string
+          nullable: true
+        roleId:
+          type: string
+          format: uuid
+        provinceId:
+          type: integer
+          format: int32
+      additionalProperties: false
+    LoginRequestDto:
+      type: object
+      properties:
+        email:
+          type: string
+          nullable: true
+        password:
+          type: string
+          nullable: true
+      additionalProperties: false
+    LoginResponseDto:
+      type: object
+      properties:
+        token:
+          type: string
+          nullable: true
+      additionalProperties: false
+    OrderDetailRequest:
+      type: object
+      properties:
+        productId:
+          type: string
+          format: uuid
+        quantity:
+          type: integer
+          format: int32
+      additionalProperties: false
+    UpdateIngredientDto:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+          nullable: true
+        quantityAvailable:
+          type: number
+          format: double
+        stockAlert:
+          type: number
+          format: double
+      additionalProperties: false
+    UpdateUserDto:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+          nullable: true
+        email:
+          type: string
+          nullable: true
+        roleId:
+          type: string
+          format: uuid
+        provinceId:
+          type: integer
+          format: int32
+      additionalProperties: false
