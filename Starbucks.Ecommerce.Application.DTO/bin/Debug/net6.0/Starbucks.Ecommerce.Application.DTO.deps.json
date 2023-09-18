@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Starbucks.Ecommerce.Application.DTO/1.0.0": {
+        "dependencies": {
+          "Starbucks.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "runtime": {
+          "Starbucks.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "Starbucks.Ecommerce.Domain.Entity/1.0.0": {
+        "runtime": {
+          "Starbucks.Ecommerce.Domain.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Starbucks.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Starbucks.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

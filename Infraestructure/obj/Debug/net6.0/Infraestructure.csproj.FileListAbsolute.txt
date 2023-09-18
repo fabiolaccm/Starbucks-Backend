@@ -1,0 +1,12 @@
+D:\DesafioTecnico\Backend\Infraestructure\bin\Debug\net6.0\Infraestructure.deps.json
+D:\DesafioTecnico\Backend\Infraestructure\bin\Debug\net6.0\Infraestructure.dll
+D:\DesafioTecnico\Backend\Infraestructure\bin\Debug\net6.0\Infraestructure.pdb
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.csproj.AssemblyReference.cache
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.AssemblyInfoInputs.cache
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.AssemblyInfo.cs
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.csproj.CoreCompileInputs.cache
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.dll
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\refint\Infraestructure.dll
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\Infraestructure.pdb
+D:\DesafioTecnico\Backend\Infraestructure\obj\Debug\net6.0\ref\Infraestructure.dll

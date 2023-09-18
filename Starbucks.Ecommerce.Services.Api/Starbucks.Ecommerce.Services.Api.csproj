@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.22" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starbucks.Ecommerce.Application.DTO\Starbucks.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Application.Interface\Starbucks.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Application.Main\Starbucks.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Domain.Core\Starbucks.Ecommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Domain.Interface\Starbucks.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Infraestructure.Repository\Starbucks.Ecommerce.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Transversal.Logging\Starbucks.Ecommerce.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Transversal.Mapper\Starbucks.Ecommerce.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

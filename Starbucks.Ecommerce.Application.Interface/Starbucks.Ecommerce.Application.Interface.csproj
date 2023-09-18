@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starbucks.Ecommerce.Application.DTO\Starbucks.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Transversal.Common\Starbucks.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

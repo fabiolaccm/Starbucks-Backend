@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uG9pOCEZ4O30ojt0ZT+yJax97oi6ImsDR3z4UxcHhtc=",
+  "Source": "Starbucks.Ecommerce.Services.Api",
+  "BasePath": "_content/Starbucks.Ecommerce.Services.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

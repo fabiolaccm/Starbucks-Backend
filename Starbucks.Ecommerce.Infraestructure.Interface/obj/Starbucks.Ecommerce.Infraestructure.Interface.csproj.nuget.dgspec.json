@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Infraestructure.Interface\\Starbucks.Ecommerce.Infraestructure.Interface.csproj": {}
+  },
+  "projects": {
+    "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
+        "projectName": "Starbucks.Ecommerce.Domain.Entity",
+        "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
+        "outputPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Infraestructure.Interface\\Starbucks.Ecommerce.Infraestructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Infraestructure.Interface\\Starbucks.Ecommerce.Infraestructure.Interface.csproj",
+        "projectName": "Starbucks.Ecommerce.Infraestructure.Interface",
+        "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Infraestructure.Interface\\Starbucks.Ecommerce.Infraestructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
+        "outputPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Infraestructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

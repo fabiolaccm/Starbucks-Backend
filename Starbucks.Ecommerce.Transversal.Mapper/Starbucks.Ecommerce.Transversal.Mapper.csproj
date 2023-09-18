@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starbucks.Ecommerce.Application.DTO\Starbucks.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Domain.Entity\Starbucks.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Starbucks.Ecommerce.Infraestructure.Data\Starbucks.Ecommerce.Infraestructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

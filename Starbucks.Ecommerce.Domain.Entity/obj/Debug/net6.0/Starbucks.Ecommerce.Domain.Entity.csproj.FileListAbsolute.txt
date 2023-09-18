@@ -1,0 +1,12 @@
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\bin\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.deps.json
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\bin\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.dll
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\bin\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.pdb
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.AssemblyInfo.cs
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.dll
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\refint\Starbucks.Ecommerce.Domain.Entity.dll
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\Starbucks.Ecommerce.Domain.Entity.pdb
+D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Domain.Entity\obj\Debug\net6.0\ref\Starbucks.Ecommerce.Domain.Entity.dll
