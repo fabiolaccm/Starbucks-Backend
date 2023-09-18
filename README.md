@@ -17,6 +17,8 @@ admin1@gmail.com
 - Puede gestionar usuarios y ver todas las ordenes.
 
 
+# Starbucks.Ecommerce.Services.Api Swagger
+<a id="raw-url" href="https://raw.githubusercontent.com/fabiolaccm/Starbucks-Backend/master/openapi.yaml">Download Swagger</a>
 
 # Starbucks.Ecommerce.Services.Api
 ## Version: 1.0
