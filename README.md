@@ -2,6 +2,8 @@
 This project was generated with Net Core 6 And EF InMemoryDatabase.
 
 # Usuarios de Prueba
+- La contraseña para todos los usuarios es: 123
+
 user1@gmail.com, user2@gmail.com
 - Puede acceder a crear, ver y eliminar sus ordenes.
 
