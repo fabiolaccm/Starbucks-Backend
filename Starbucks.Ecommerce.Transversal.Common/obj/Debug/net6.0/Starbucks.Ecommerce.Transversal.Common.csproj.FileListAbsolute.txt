@@ -10,3 +10,15 @@ D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.
 D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\refint\Starbucks.Ecommerce.Transversal.Common.dll
 D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.pdb
 D:\DesafioTecnico\Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\ref\Starbucks.Ecommerce.Transversal.Common.dll
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\bin\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.deps.json
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\bin\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.dll
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\bin\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.pdb
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.csproj.AssemblyReference.cache
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.AssemblyInfoInputs.cache
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.AssemblyInfo.cs
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.dll
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\refint\Starbucks.Ecommerce.Transversal.Common.dll
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\Starbucks.Ecommerce.Transversal.Common.pdb
+D:\DesafioDownload\Starbucks-Backend\Starbucks.Ecommerce.Transversal.Common\obj\Debug\net6.0\ref\Starbucks.Ecommerce.Transversal.Common.dll

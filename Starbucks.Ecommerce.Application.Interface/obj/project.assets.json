@@ -66,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.Interface\\Starbucks.Ecommerce.Application.Interface.csproj",
+      "projectUniqueName": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.Interface\\Starbucks.Ecommerce.Application.Interface.csproj",
       "projectName": "Starbucks.Ecommerce.Application.Interface",
-      "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.Interface\\Starbucks.Ecommerce.Application.Interface.csproj",
+      "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.Interface\\Starbucks.Ecommerce.Application.Interface.csproj",
       "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
-      "outputPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.Interface\\obj\\",
+      "outputPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,11 +87,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.DTO\\Starbucks.Ecommerce.Application.DTO.csproj": {
-              "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.DTO\\Starbucks.Ecommerce.Application.DTO.csproj"
+            "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.DTO\\Starbucks.Ecommerce.Application.DTO.csproj": {
+              "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.DTO\\Starbucks.Ecommerce.Application.DTO.csproj"
             },
-            "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj": {
-              "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj"
+            "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj": {
+              "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj"
             }
           }
         }

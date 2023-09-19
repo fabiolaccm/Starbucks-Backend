@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o4PPDNetL8onWgSdHXZkt7vuNqZXZwy8QYHFOnKqLfYCby6Yv7Qe6hMLOt0o4IuccIOjOtttx38pHyC0M69XEg==",
+  "dgSpecHash": "gB+UZen4QIFeitEG/EUFUh4Mh6USf3sHJG7fCyqIF4U7gX3o05ostCRZMZrLbKcU2eV268kq7edq/dT6BETCPQ==",
   "success": true,
-  "projectFilePath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Interface\\Starbucks.Ecommerce.Domain.Interface.csproj",
+  "projectFilePath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Interface\\Starbucks.Ecommerce.Domain.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

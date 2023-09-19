@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T6z0CSn7jrZpo9vM0V2VFJW/B/jGhunNLAmxV/1FdalOSpdIaexDrlMDkKynqlmXw5gwqIkEV3K35tSuUdjM8Q==",
+  "dgSpecHash": "30TsPInDfS5+HoFXMuM5WSfYrOEIrjM/U/hnjBoHlKhoPpu9KtzQKgLUKlR0eZ2T5Fidum9naK4b373/f4s56g==",
   "success": true,
-  "projectFilePath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Services.Api\\Starbucks.Ecommerce.Services.Api.csproj",
+  "projectFilePath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Services.Api\\Starbucks.Ecommerce.Services.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flavio\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Flavio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

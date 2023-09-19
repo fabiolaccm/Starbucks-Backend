@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r4ODHjxsk+IOtKWmO7Kt+G0Fn9WSEY5KwZ961jInmfgEpq8/9K+Wx6dvNM29W5Lnd4wdRBqMwFPfjXCEtEPONg==",
+  "dgSpecHash": "Oq7r1LWB9sz9cwutAQ+sT1Z8tdCzSlEr3u6IUl1JEw3TjobL8ChpjWlUy31K2ubStCfx0F3I/7qE5QJQQQJxaQ==",
   "success": true,
-  "projectFilePath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
+  "projectFilePath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

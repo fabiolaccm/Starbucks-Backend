@@ -213,7 +213,7 @@ namespace Starbucks.Ecommerce.Infraestructure.Data
                 Id = Guid.Parse("76b80386-43d1-4552-a355-a742296f0bc1"),
                 Email = "user1@gmail.com",
                 Password = "123",
-                Name = "First user",
+                Name = "Fabiola Cipriano",
                 RoleId = roleDataModels[0].Id,
                 ProvinceId = provinces[0].Id
             };
@@ -223,7 +223,7 @@ namespace Starbucks.Ecommerce.Infraestructure.Data
                 Id = Guid.Parse("76b80386-43d1-4552-a355-a742296f0bc2"),
                 Email = "user2@gmail.com",
                 Password = "123",
-                Name = "Second user",
+                Name = "Dayron Cipriano",
                 RoleId = roleDataModels[0].Id,
                 ProvinceId = provinces[0].Id
             };
@@ -231,9 +231,9 @@ namespace Starbucks.Ecommerce.Infraestructure.Data
             var userWithRoleEmployee = new UserDataModel
             {
                 Id = Guid.Parse("76b80386-43d1-4552-a355-a742296f0bc3"),
-                Email = "user3@gmail.com",
+                Email = "employee1@gmail.com",
                 Password = "123",
-                Name = "Flav employee",
+                Name = "Alejandro Rosales",
                 RoleId = roleDataModels[1].Id,
                 ProvinceId = provinces[0].Id
             };
@@ -241,9 +241,9 @@ namespace Starbucks.Ecommerce.Infraestructure.Data
             var userWithRoleSupervisor = new UserDataModel
             {
                 Id = Guid.Parse("76b80386-43d1-4552-a355-a742296f0bc4"),
-                Email = "user4@gmail.com",
+                Email = "supervisor1@gmail.com",
                 Password = "123",
-                Name = "Flav supervisor",
+                Name = "Luis Gareca",
                 RoleId = roleDataModels[2].Id,
                 ProvinceId = provinces[0].Id
             };
@@ -251,10 +251,10 @@ namespace Starbucks.Ecommerce.Infraestructure.Data
             var userWithRoleAdministrator = new UserDataModel
             {
                 Id = Guid.Parse("76b80386-43d1-4552-a355-a742296f0bc5"),
-                Email = "user5@gmail.com",
+                Email = "admin1@gmail.com",
                 Password = "123",
                 RoleId = roleDataModels[3].Id,
-                Name = "Flav administrator",
+                Name = "Mercedes Cipriano",
                 ProvinceId = provinces[0].Id
             };
 

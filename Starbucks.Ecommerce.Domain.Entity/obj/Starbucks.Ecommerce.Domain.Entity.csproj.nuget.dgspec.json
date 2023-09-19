@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {}
+    "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {}
   },
   "projects": {
-    "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {
+    "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
+        "projectUniqueName": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
         "projectName": "Starbucks.Ecommerce.Domain.Entity",
-        "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
+        "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Entity\\Starbucks.Ecommerce.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
-        "outputPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Domain.Entity\\obj\\",
+        "outputPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",

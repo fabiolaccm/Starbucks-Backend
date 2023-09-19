@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K+a6vp1UnQuTpC4W6M9N7NR4y5EVVmFNjLWeGGsDQclud/f+ylSeYY3YVehPAeCPC7k3mMS8o+JKD1lylVJDMw==",
+  "dgSpecHash": "xM20IDh38KSNcrSqTpeeVU42DgHfQMkUMARAnS1YvxW4SwV/iz4gg4ZSvSjQfPGKjobXLuo92GGQXROeVjkxiQ==",
   "success": true,
-  "projectFilePath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Application.Main\\Starbucks.Ecommerce.Application.Main.csproj",
+  "projectFilePath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Application.Main\\Starbucks.Ecommerce.Application.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flavio\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"

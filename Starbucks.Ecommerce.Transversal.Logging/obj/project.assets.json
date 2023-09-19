@@ -371,11 +371,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
+      "projectUniqueName": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
       "projectName": "Starbucks.Ecommerce.Transversal.Logging",
-      "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
+      "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Logging\\Starbucks.Ecommerce.Transversal.Logging.csproj",
       "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
-      "outputPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Logging\\obj\\",
+      "outputPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Logging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -392,8 +392,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj": {
-              "projectPath": "D:\\DesafioTecnico\\Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj"
+            "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj": {
+              "projectPath": "D:\\DesafioDownload\\Starbucks-Backend\\Starbucks.Ecommerce.Transversal.Common\\Starbucks.Ecommerce.Transversal.Common.csproj"
             }
           }
         }
