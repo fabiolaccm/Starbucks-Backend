@@ -6,6 +6,8 @@ artifacts/
 bin/
 obj/
 
+.vs/
+
 # Visual Studio 2019 config folder
 .vs2019/
 
