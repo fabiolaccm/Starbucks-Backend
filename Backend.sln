@@ -25,19 +25,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Applica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Services.Api", "Starbucks.Ecommerce.Services.Api\Starbucks.Ecommerce.Services.Api.csproj", "{8CCFE972-1314-4CBE-A5AB-48E4DE83C99A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Domain.Core", "Starbucks.Ecommerce.Domain.Core\Starbucks.Ecommerce.Domain.Core.csproj", "{188A9A72-DF4A-4B8B-BE49-D559BE1B6878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Domain.Core", "Starbucks.Ecommerce.Domain.Core\Starbucks.Ecommerce.Domain.Core.csproj", "{188A9A72-DF4A-4B8B-BE49-D559BE1B6878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Domain.Entity", "Starbucks.Ecommerce.Domain.Entity\Starbucks.Ecommerce.Domain.Entity.csproj", "{6D87FCFD-0949-4619-906E-4D8F5F689D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Domain.Entity", "Starbucks.Ecommerce.Domain.Entity\Starbucks.Ecommerce.Domain.Entity.csproj", "{6D87FCFD-0949-4619-906E-4D8F5F689D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Domain.Interface", "Starbucks.Ecommerce.Domain.Interface\Starbucks.Ecommerce.Domain.Interface.csproj", "{58698A99-F629-4EAF-A7E6-5B2C08D97FFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Domain.Interface", "Starbucks.Ecommerce.Domain.Interface\Starbucks.Ecommerce.Domain.Interface.csproj", "{58698A99-F629-4EAF-A7E6-5B2C08D97FFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Infraestructure.Data", "Starbucks.Ecommerce.Infraestructure.Data\Starbucks.Ecommerce.Infraestructure.Data.csproj", "{33C2EDE1-7B06-4155-81BA-DE30722C15BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Infraestructure.Data", "Starbucks.Ecommerce.Infraestructure.Data\Starbucks.Ecommerce.Infraestructure.Data.csproj", "{33C2EDE1-7B06-4155-81BA-DE30722C15BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Infraestructure.Interface", "Starbucks.Ecommerce.Infraestructure.Interface\Starbucks.Ecommerce.Infraestructure.Interface.csproj", "{C0549EF8-82D8-48B6-9DFB-07C7EA4B30C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Infraestructure.Interface", "Starbucks.Ecommerce.Infraestructure.Interface\Starbucks.Ecommerce.Infraestructure.Interface.csproj", "{C0549EF8-82D8-48B6-9DFB-07C7EA4B30C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Infraestructure.Repository", "Starbucks.Ecommerce.Infraestructure.Repository\Starbucks.Ecommerce.Infraestructure.Repository.csproj", "{3D3EE45E-23B4-47E9-B443-24601C38776A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Infraestructure.Repository", "Starbucks.Ecommerce.Infraestructure.Repository\Starbucks.Ecommerce.Infraestructure.Repository.csproj", "{3D3EE45E-23B4-47E9-B443-24601C38776A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Transversal.Mapper", "Starbucks.Ecommerce.Transversal.Mapper\Starbucks.Ecommerce.Transversal.Mapper.csproj", "{17A84C39-920D-4E0D-9351-A0E4572FF09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbucks.Ecommerce.Transversal.Mapper", "Starbucks.Ecommerce.Transversal.Mapper\Starbucks.Ecommerce.Transversal.Mapper.csproj", "{17A84C39-920D-4E0D-9351-A0E4572FF09A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pruebas", "Pruebas", "{108A3D7C-75CC-42DD-895C-B0922830E85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Services.Api.Test", "Starbucks.Ecommerce.Services.Api.Test\Starbucks.Ecommerce.Services.Api.Test.csproj", "{0C527940-4806-4720-8660-A2D239303C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Domain.Core.Tests", "Starbucks.Ecommerce.Domain.Core.Tests\Starbucks.Ecommerce.Domain.Core.Tests.csproj", "{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbucks.Ecommerce.Application.Test", "Starbucks.Ecommerce.Application.Test\Starbucks.Ecommerce.Application.Test.csproj", "{C82B9C66-3256-4F4E-A746-9616203A8C60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +105,18 @@ Global
 		{17A84C39-920D-4E0D-9351-A0E4572FF09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A84C39-920D-4E0D-9351-A0E4572FF09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A84C39-920D-4E0D-9351-A0E4572FF09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C527940-4806-4720-8660-A2D239303C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C527940-4806-4720-8660-A2D239303C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C527940-4806-4720-8660-A2D239303C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C527940-4806-4720-8660-A2D239303C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82B9C66-3256-4F4E-A746-9616203A8C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82B9C66-3256-4F4E-A746-9616203A8C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82B9C66-3256-4F4E-A746-9616203A8C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82B9C66-3256-4F4E-A746-9616203A8C60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +135,9 @@ Global
 		{C0549EF8-82D8-48B6-9DFB-07C7EA4B30C1} = {01F324C6-20C5-4A78-BA94-E2C21D5FD314}
 		{3D3EE45E-23B4-47E9-B443-24601C38776A} = {01F324C6-20C5-4A78-BA94-E2C21D5FD314}
 		{17A84C39-920D-4E0D-9351-A0E4572FF09A} = {5521DA16-0132-4A11-95D3-663E31122AE4}
+		{0C527940-4806-4720-8660-A2D239303C2E} = {108A3D7C-75CC-42DD-895C-B0922830E85C}
+		{F32B5E38-B902-49FB-B3F5-A6CB3BF98C4C} = {108A3D7C-75CC-42DD-895C-B0922830E85C}
+		{C82B9C66-3256-4F4E-A746-9616203A8C60} = {108A3D7C-75CC-42DD-895C-B0922830E85C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {726C920B-CFFE-4CBF-9A58-1249450ECC41}

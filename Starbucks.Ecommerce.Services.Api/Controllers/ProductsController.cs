@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Starbucks.Ecommerce.Application.DTO;
 using Starbucks.Ecommerce.Application.Interface;
 using Starbucks.Ecommerce.Services.Api.Common;
 
@@ -17,7 +18,7 @@ namespace Starbucks.Ecommerce.Services.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> GetAll()
+        public async Task<ActionResult<IEnumerable<ProductResponseDto>>> GetAll()
         {
             try
             {
@@ -35,7 +36,7 @@ namespace Starbucks.Ecommerce.Services.Api.Controllers
         }
 
         [HttpGet("{productId}")]
-        public async Task<ActionResult> GetById(Guid productId)
+        public async Task<ActionResult<ProductResponseDto>> GetById(Guid productId)
         {
             try
             {

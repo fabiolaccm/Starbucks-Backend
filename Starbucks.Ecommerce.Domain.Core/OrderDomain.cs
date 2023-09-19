@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using Starbucks.Ecommerce.Domain.Interface;
+﻿using Starbucks.Ecommerce.Domain.Interface;
 using Starbucks.Ecommerce.Infraestructure.Interface;
 
 namespace Starbucks.Ecommerce.Domain.Entity
@@ -8,12 +7,9 @@ namespace Starbucks.Ecommerce.Domain.Entity
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        private readonly IMapper _mapper;
-
-        public OrderDomain(IUnitOfWork unitOfWork, IMapper mapper)
+        public OrderDomain(IUnitOfWork unitOfWork)
         {
             this._unitOfWork = unitOfWork;
-            this._mapper = mapper;
         }
 
         public Task<bool> Create(Order order)

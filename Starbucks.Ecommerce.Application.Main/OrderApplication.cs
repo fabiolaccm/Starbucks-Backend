@@ -21,16 +21,15 @@ namespace Starbucks.Ecommerce.Application.Main
         }
         public async Task<Response<OrderResponseDto>> CreateOrder(CreateOrderRequestDto createOrderRequest)
         {
+            if (createOrderRequest.OrderDetails == null || createOrderRequest.OrderDetails.Count == 0)
+            {
+                return Response<OrderResponseDto>.Fail("La orden debe tener al menos un detalle de pedido");
+            }
 
             var user = await _unitOfWork.Users.FindById(createOrderRequest.UserId);
             if (user == null)
             {
                 return Response<OrderResponseDto>.Fail("Usuario no válido");
-            }
-
-            if (createOrderRequest.OrderDetails == null || createOrderRequest.OrderDetails.Count == 0)
-            {
-                return Response<OrderResponseDto>.Fail("La orden debe tener al menos un detalle de pedido");
             }
 
             var productsInOrder = new List<Product>();
@@ -59,7 +58,6 @@ namespace Starbucks.Ecommerce.Application.Main
                 // Validar si el ítem está disponible en stock
                 foreach (var ingredientInOrder in ingredientsInOrder)
                 {
-                    var iii = ingredientInOrder.IngredientId.ToString();
                     var ingredient = await _unitOfWork.Ingredients.FindById(ingredientInOrder.IngredientId);
                     if (ingredient == null || ingredient.QuantityAvailable < ingredientInOrder.TotalQuantity)
                     {
